@@ -16,7 +16,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-
-//pujalahane2024
-//RRxU01tU4R52DNJE
-//mongodb+srv://pujalahane2024:RRxU01tU4R52DNJE@healthcare.f6ngt5y.mongodb.net/?retryWrites=true&w=majority&appName=healthcare

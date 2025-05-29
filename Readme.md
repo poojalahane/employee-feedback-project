@@ -120,3 +120,13 @@ npm install
 -Delete feedback feature is optional but implemented.
 
 -Time displayed is based on user's local time zone.
+
+## 🔗 API Endpoints
+
+# Method Endpoint Description
+
+POST /feedback Submit a new feedback entry
+GET /feedback Get all feedback entries
+GET /feedback?category=xyz Get feedback by category
+PATCH /feedback/:id/reviewed Mark feedback as reviewed
+DELETE /feedback/:id Delete a feedback entry
