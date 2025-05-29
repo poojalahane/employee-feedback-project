@@ -38,14 +38,14 @@ A simple full-stack application for anonymous employee feedback submission and a
 
 -Basic manual CSS styling.
 
-### Employee Interface
+## Employee Interface
 
 - 🕵️ 100% anonymous feedback submission
 - 📝 Categorized feedback (Work Environment, Leadership, Growth, Others)
 - 🔍 Real-time form validation
 - 📅 Automatic timestamping
 
-### Admin Dashboard
+## Admin Dashboard
 
 - 📊 Comprehensive feedback visualization
 - 🗂️ Category-based filtering
@@ -53,8 +53,6 @@ A simple full-stack application for anonymous employee feedback submission and a
 - 🗑️ Secure deletion capability
 - ⏱️ Local timezone display
 - Delete feedback
-
----
 
 ## Getting Started
 
@@ -65,33 +63,33 @@ A simple full-stack application for anonymous employee feedback submission and a
 - Git
 - npm
 
----### Clone & Setup
+## Clone & Setup
 
 # Clone repository
 
-git clone https://github.com/yourusername/employee-feedback-portal.git
-cd employee-feedback-portal
+git clone https://github.com/poojalahane/employee-feedback-project.git
+cd employee-feedback-project
 
-### Setup Backend
+## Setup Backend
 
 1. Navigate to the backend folder:
    cd backend
 
-2.Install dependencies:
-npm install
+2. Install dependencies:
+   npm install
 
-3.Create a .env file in the backend root:
+3 .Create a .env file in the backend root:
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
 
-4.Start the backend server:
-npm run start
-Or
-npm run dev
+4. Start the backend server:
+   npm run start
+   Or
+   npm run dev
 
 ### Backend server runs on http://localhost:5000
 
-### Setup Frontend
+## Setup Frontend
 
 1.Navigate to the frontend folder:
 cd frontend
@@ -103,21 +101,22 @@ npm install
 
 4. Frontend runs on http://localhost:3000 and connects to backend APIs.
 
-### Access the application:
+## Access the application:
 
 ### Employee Portal: http://localhost:3000
 
 ### Admin Dashboard: http://localhost:3000/admin
 
-Assumptions & Notes
-No authentication needed; feedback is fully anonymous.
+## Assumptions & Notes
 
-Backend validates required fields.
+-No authentication needed; feedback is fully anonymous.
 
-Basic error handling included.
+-Backend validates required fields.
 
-Styling is minimal with CSS (no UI library used).
+-Basic error handling included.
 
-Delete feedback feature is optional but implemented.
+-Styling is minimal with CSS (no UI library used).
 
-Time displayed is based on user's local time zone.
+-Delete feedback feature is optional but implemented.
+
+-Time displayed is based on user's local time zone.
